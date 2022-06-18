@@ -1,0 +1,1 @@
+## Socket para el cursor en tiempo real

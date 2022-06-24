@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client'
 
 // let baseUrl = 'http://localhost:3400'
-let baseUrl = 'https://expressjs-production-40aa.up.railway.app:3000'
+let baseUrl = 'https://expressjs-production-40aa.up.railway.app'
 
 export default io(baseUrl, {
   path: '/',

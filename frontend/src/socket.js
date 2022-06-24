@@ -5,6 +5,7 @@ let baseUrl = 'https://expressjs-production-40aa.up.railway.app:3000'
 
 export default io(baseUrl, {
   path: '/',
+  transports: ['websocket', 'polling']
 })
 
 // if (store.state.session?.token) {
